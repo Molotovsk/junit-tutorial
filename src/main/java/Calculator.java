@@ -10,7 +10,7 @@ public class Calculator {
     }
 
     static double multiply(double... operands) {
-        return DoubleStream.of(operands)
+        return DoubleStream.of(operands) // hej
                 .reduce(1, (a, b) -> a * b);
     }
 }
