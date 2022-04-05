@@ -20,7 +20,7 @@ class CalculatorTest {
     @Test
     @DisplayName("Add two numbers")
      void add() {
-        // To fix this bug, change .add to 2,2 and it should work.
+        // To fix this bug, change .add to 2,2 and it should work. NO!
         assertEquals(4, Calculator.add(1, 2));
     }
 
